@@ -1,1 +1,2 @@
-# PGO-2
+Zadania 1-4
+Klasy: Main, Ksiazka
