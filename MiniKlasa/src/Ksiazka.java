@@ -10,4 +10,12 @@ this.autor = autor;
 this.liczbaStron = liczbaStron;
 this.dostepna = dostepna;
     }
+
+    public void printInfo() {
+        System.out.println("Tytul: " + this.tytul);
+        System.out.println("Autor: " + this.autor);
+        System.out.println("Liczba stron: " + this.liczbaStron);
+        System.out.println("Czy dostępna: " + this.dostepna);
+
+    }
 }
