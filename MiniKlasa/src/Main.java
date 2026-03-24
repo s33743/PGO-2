@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Ksiazka harryPotter=new Ksiazka("Harry Potter","J.K.Rowling", 360, true);
         harryPotter.printInfo();
+        Ksiazka opowiesciNarni=new Ksiazka("Opowiesci Narni", "C.S.Lewis", 400, false);
+        opowiesciNarni.printInfo();
+        Ksiazka arimanExile=new Ksiazka("ArimanExile", "John French", 416, true);
+        arimanExile.printInfo();
+
         Czytelnik janKowalski=new Czytelnik("Jan","Kowalski", 445,4);
         janKowalski.printInfo();
         Czytelnik toddHoward=new Czytelnik("Todd","Howard",45,7);
