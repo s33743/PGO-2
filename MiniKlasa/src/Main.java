@@ -9,7 +9,22 @@ public class Main {
         Czytelnik toddHoward=new Czytelnik("Todd","Howard",45,7);
         toddHoward.printInfo();
 
+        Biblioteka biblioteka = new Biblioteka(20);
 
+        biblioteka.dodajKsiazke(new Ksiazka("Wiedzmin", "Sapkowski", 320, false));
+        biblioteka.dodajKsiazke(new Ksiazka("Lalka", "Prus", 450,true));
 
+        biblioteka.wypiszDostepneKsiazki();
+
+        System.out.println("Liczba ksiazek: " + biblioteka.policzDostepneKsiazki());
+
+        Ksiazka znaleziona = biblioteka.znajdzKsiazkePoTytule("Lalka");
+        if (znaleziona != null) {
+            System.out.println("Znaleziono");
+            znaleziona.printInfo();
+        } else {
+            System.out.println("Nie znaleziono ksiazki");
         }
     }
+}
+
