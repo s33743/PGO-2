@@ -7,6 +7,7 @@ public class Main {
         Czytelnik janKowalski=new Czytelnik("Jan","Kowalski", 445,4);
         janKowalski.printInfo();
         Czytelnik toddHoward=new Czytelnik("Todd","Howard",45,7);
+        toddHoward.printInfo();
 
 
 
